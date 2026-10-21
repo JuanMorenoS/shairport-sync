@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(autoreconf:*)",
+      "Bash(./configure:*)",
+      "Bash(make:*)",
+      "Bash(./shairport-sync -V)",
+      "Bash(./shairport-sync --help)",
+      "Bash(brew list:*)",
+      "Bash(brew info:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git show:*)",
+      "Bash(git branch:*)",
+      "Bash(git fetch:*)",
+      "Bash(git blame:*)",
+      "Bash(gh issue view:*)",
+      "Bash(gh issue list:*)",
+      "Bash(gh pr view:*)",
+      "Bash(gh pr list:*)",
+      "Bash(gh pr diff:*)"
+    ],
+    "deny": [
+      "Bash(git push upstream:*)",
+      "Bash(git push --force:*)",
+      "Bash(sudo make install:*)"
+    ]
+  }
+}
